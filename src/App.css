@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-bg-container {
+  background-color: white;
+  height: 100vh;
+}
+.app-logo {
+  height: 40px;
+}
+.search-nav-bar-container {
+  height: 10vh;
+  background-color: #3367d6;
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-bar-input-container {
+  display: flex;
+  background-color: #2850a7;
+  border-radius: 5px;
+  flex-direction: row;
+  align-items: center;
+  border-width: 1px;
+  border-color: white;
+}
+.search-icon {
+  height: 30px;
+  margin: 5px;
+}
+.vertical-line {
+  height: 30px;
+  border-color: white;
+  border-style: solid;
+}
+.inputContainer {
+  background-color: #2850a7;
+  border-width: 0px;
+  padding: 10px;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+.history-items-container {
+  background-color: white;
+  height: 90px;
+}
+.noHistoryPage {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.noHistoryPage p {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
