@@ -21,6 +21,7 @@ const ListItem = props => {
           </p>
         </div>
         <button
+          data-testid="delete"
           type="button"
           onClick={onDeleteBtn}
           className="button"
